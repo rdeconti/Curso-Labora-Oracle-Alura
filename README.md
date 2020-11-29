@@ -8,7 +8,9 @@
 O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologia para profissionais seniores e aumentar a empregabilidade dessa população. São 4 formações com vários cursos durante 6 meses ministrados pela Alura
 
 # Labora, Oracle e Alura
-https://www.labora.tech/   https://www.oracle.com/br/education/oracle-next-education/   https://www.alura.com.br/
+<p>https://www.labora.tech/</p>
+<p>https://www.oracle.com/br/education/oracle-next-education/</p>
+<p>https://www.alura.com.br/</p>
 
 # FORMAÇÃO 1 - Oracle ONE: Lógica de Programação
 ### > Concluido :heavy_check_mark:
@@ -62,8 +64,8 @@ https://www.labora.tech/   https://www.oracle.com/br/education/oracle-next-educa
 
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
-| Bake House| xxxxxxx | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/BakeHouse_WITHOUT_KEY">Link</a> |
-| Elegant Reader| xxxxxxx | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/ElegantReader_WITHOUT_KEY">Link</a> |
-| Find Movies| xxxxxxx | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/FindMoviesStage2_WITHOUT_KEY">Link</a> |
-| Quick Jokes| xxxxxxx | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/QuickJokes_WITHOUT_KEY">Link</a> |
+| Barbearia Alura| Website = Babearia | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/BakeHouse_WITHOUT_KEY">Link</a> |
+| Aparecida Nutricionista| Website - Pacientes de clinica | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/ElegantReader_WITHOUT_KEY">Link</a> |
+| Alura Typer| Website - jogo de digitação | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/FindMoviesStage2_WITHOUT_KEY">Link</a> |
+| Conferência Alura| Website - projeto de final de curso | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/QuickJokes_WITHOUT_KEY">Link</a> |
 | Best Meal| xxxxxxx | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Udacity-Android-Developer-Nanodegree/tree/main/Capstone%20-%20BestMeal">Link</a> |
