@@ -10,7 +10,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 # Labora, Oracle e Alura
 https://www.labora.tech/   https://www.oracle.com/br/education/oracle-next-education/   https://www.alura.com.br/
 
-# FORMAÇÃO 1 - Oracle ONE: Lógica de Programação (70h) - <a href="https://github.com/rdeconti/Curso-Labora/blob/main/Certificado%20de%20conclus%C3%A3o%20-%20BEM%20VINDO%20A%20SUA%20SEGUNDA%20CARREIRA.pdf">Certificado de conclusão</a>
+# FORMAÇÃO 1 - Oracle ONE: Lógica de Programação
 ### > Concluido :heavy_check_mark:
 Cursos:
 <p>Lógica de programação I: Os primeiros programas com Javascript e HTML</p>
@@ -19,14 +19,20 @@ Cursos:
 <p>HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</p>
 <p>JavaScript: Programando na linguagem da web</p>
 <p>Projeto Oracle ONE Lógica de Programação</p>
+<p>Tempo estimado: 70 horas</p>
 
 # FORMAÇÃO 2 - Oracle ONE: Front-end
 ### > Concluido :heavy_check_mark:
-Desenvolvendo aplicativos Android
-Trabalhe junto aos instrutores no passo a passo para construir um aplicativo Android conectado à nuvem e aprenda as melhores práticas do desenvolvimento móvel em geral e de Android em particular. Combinando teoria e prática, você aprenderá a construir ótimos aplicativos da forma correta.
-Projeto: Projeto 1: Filmes Famosos - Parte 1
-Projeto: Projeto 2: Filmes famosos - Parte 2
-Tempo estimado: 58 dias
+<p>HTML5 e CSS3 parte 1: A primeira página da Web</p>
+<p>HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</p>
+<p>HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas</p>
+<p>HTML5 e CSS3 parte 4: Avançando no CSS</p>
+<p>JavaScript: Programando na linguagem da web</p>
+<p>jQuery: Domine a biblioteca mais popular do mercado parte 1</p>
+<p>jQuery: Avance na biblioteca mais popular do mercado parte 2</p>
+<p>Web Design Responsivo: Páginas que se adaptam do mobile ao desk</p>
+<p>Front-end: Projeto de conclusão</p>
+<p>Tempo estimado: 90 horas</p>
 
 # FORMAÇÃO 3 - Oracle ONE: Java
 ### > Concluido :heavy_check_mark:
