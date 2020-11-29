@@ -61,7 +61,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 <p>Business Model Canvas parte II : Avance no seu modelo de negócios</p>
 
 # CERTIFICADOS DE CONCLUSÃO
-# <a href="https://github.com/rdeconti/Curso-Labora/blob/main/Certificado%20de%20conclus%C3%A3o%20-%20BEM%20VINDO%20A%20SUA%20SEGUNDA%20CARREIRA.pdf">Certificado de conclusão</a>
+# <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Certificados%20de%20conclus%C3%A3o">Certificado de conclusão</a>
 
 # PROJETOS EXECUTADOS DURANTE O CURSO
 
