@@ -1,0 +1,8 @@
+Colors From Image: obtain color from a document (alternative to PhotoShop)
+http://html-color-codes.info/colors-from-image/
+
+WhatTheFont: Instant font identification powered by the world’s largest collection of fonts.
+https://www.myfonts.com/WhatTheFont/
+
+Source of file reset.CSS
+https://meyerweb.com/eric/tools/css/reset/

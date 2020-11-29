@@ -1,0 +1,48 @@
+/**
+		****************************************************************************
+	    Projeto Labora/Alura/Oracle ONE
+	    Curso Alura: Projeto de Conclusão Formação 1 e Formação 2
+	    Aluna: Rosemeire Deconti
+	    Exercício: Página WEB Conferência Alura
+	    Data: Novembro/2020
+		****************************************************************************
+**/
+
+/* ------------------------------------------------------------------ Classes */
+.formBox {
+	width: auto;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.formButton {
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+.formData {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px;
+	background-color: white;
+}
+
+.formInput{
+	width: 96%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.formLabel{
+	font-weight: bold;
+	width: 96%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px;
+	display: block;
+}
