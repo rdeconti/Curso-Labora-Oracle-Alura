@@ -12,17 +12,17 @@ https://www.labora.tech/   https://www.oracle.com/br/education/oracle-next-educa
 
 # FORMAÇÃO 1 - Oracle ONE: Lógica de Programação
 ### > Concluido :heavy_check_mark:
-Cursos:
+#### Cursos - Tempo estimado: 70 horas
 <p>Lógica de programação I: Os primeiros programas com Javascript e HTML</p>
 <p>Lógica de programação II: pratique com desenhos, animações e um jogo</p>
 <p>HTML5 e CSS3 parte 1: A primeira página da Web</p>
 <p>HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</p>
 <p>JavaScript: Programando na linguagem da web</p>
 <p>Projeto Oracle ONE Lógica de Programação</p>
-<p>Tempo estimado: 70 horas</p>
 
 # FORMAÇÃO 2 - Oracle ONE: Front-end
 ### > Concluido :heavy_check_mark:
+#### Cursos - Tempo estimado: 90 horas
 <p>HTML5 e CSS3 parte 1: A primeira página da Web</p>
 <p>HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</p>
 <p>HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas</p>
@@ -35,19 +35,28 @@ Cursos:
 <p>Tempo estimado: 90 horas</p>
 
 # FORMAÇÃO 3 - Oracle ONE: Java
-### > Concluido :heavy_check_mark:
-Desenvolvimento avançado de aplicativos Android
-Aprimore o que você aprendeu sobre desenvolvimento Android para deixar seus aplicativos mais responsivos e criar uma experiência completa para o usuário, com widgets na tela inicial, bibliotecas terceirizadas e muito mais. Você também aprenderá a integrar rich media, testar interfaces de usuário e publicar no Google Play.
-Projeto: Aplicativo de Culinária
-Projeto: Crie seu perfil no LinkedIn
-Tempo estimado: 29 dias
+### > Em andamento :warning:
+#### Cursos - Tempo estimado: 120 horas
+<p>Java JRE e JDK: Escreva o seu primeiro código com Eclipse</p>
+<p>Java OO: Introdução à Orientação a Objetos</p>
+<p>Java Polimorfismo: Entenda herança e interfaces</p>
+<p>Java Exceções: Aprenda a criar, lançar e controlar exceções</p>
+<p>Java e java.lang: Programe com a classe Object e String</p>
+<p>Java e java.util: Coleções, Wrappers e Lambda expressions</p>
+<p>Java e java.io: Streams, Reader e Writers</p>
+<p>Java Collections: Dominando Listas, Sets e Mapas</p>
+<p>Java moderno: Tire proveito dos novos recursos do Java 8</p>
 
 # FORMAÇÃO 4 - Oracle ONE: Empreendedorismo
-### > Concluido :heavy_check_mark:
-Gradle para Android e Java
-Saiba como a ferramenta Gradle compila e gera pacotes em aplicativos, aprenda a personalizar o processo de construção e descubra a magia que acontece depois que você clica no botão "executar" no Android Studio. Você também explorará tópicos avançados de Android, como configurar recursos gratuitos ou pagos, criar e integrar bibliotecas Android, testar seu aplicativo e prepará-lo para o Google Play.
-Projeto: Projeto: Faça mais ! Construa módulos, bibliotecas e mais
-Tempo estimado: 22 dias
+### > Em andamento :warning:
+#### Cursos - Tempo estimado: 50 horas
+<p>Lean Startup: Primeiros passos da sua startup enxuta</p>
+<p>Empreendedorismo: da ideia ao plano de negócios</p>
+<p>Empreendedorismo: Abrindo sua empresa do jeito certo</p>
+<p>Ciclo de vida do produto: projetos e processos do mercado</p>
+<p>Pitch entrevistas: Faça apresentações de impacto</p>
+<p>Business Model Canvas parte I : Um modelo poderoso para o seu negócio</p>
+<p>Business Model Canvas parte II : Avance no seu modelo de negócios</p>
 
 # PROJETOS EXECUTADOS DURANTE O CURSO
 
