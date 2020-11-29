@@ -1,0 +1,90 @@
+<!--
+		****************************************************************************
+	    Projeto Labora/Alura/Oracle ONE
+	    Curso Alura: HTML5 e CSS3
+	    Aluna: Rosemeire Deconti
+	    Exercício: Página WEB para Barbearia Alura
+	    Data: Novembro/2020
+		****************************************************************************
+			Arquivo produtos.html: página de produtos da Barbearia Alura
+		****************************************************************************
+	-->
+
+	<!-- Informar ao navegador a versão do HTML utilizada pela página -->
+	<!DOCTYPE html>
+
+	<!-- Informar ao navegador o início da codificação HTML -->
+	<!-- Informar ao navegador o idioma da página (permite tradução da página) -->
+	<html lang="pt-br">
+
+		<!-- Cabeçalho: informações para o navegador -->
+		<head>
+			<!-- Conjunto de regras representação dos caracteres (exemplo: acentuação) -->
+			<meta charset="UTF-8">
+			<!-- Controlar o layout em navegadores de dispositivos móveis -->
+			<meta name="viewport" content="width=device-width">
+			<!-- Título do site (utilizado na aba do navegador) -->
+			<title>Barbearia Alura - Principal</title>
+			<!-- Remover toda formatação “original” aplicada pelo browser -->
+			<link rel="stylesheet" href="css/reset.css">
+			<!-- Endereço das folha de estilos utilizadas pela página -->
+			<link rel="stylesheet" href="css/style.css">
+			<!-- Fonte externa utilizada pela página -->
+			<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		</head>
+
+		<!-- Definir o conteúdo da página -->
+		<body>
+			<!-- Definir o cabeçalho da página -->
+			<header>
+				<!-- Definir divisão: conteúdo do header -->
+				<div class="caixa">
+					<!-- Exibe o logotipo da empresa com texto alternativo a imagem caso esta não seja encontrada -->
+					<h1><img src="img/logo-negro.png" alt="Logotipo da Barbearia Alura"></h1>
+					<!-- Definir seção de links de navegação -->
+					<nav>
+						<!-- Definir lista de itens desordenada -->
+						<!-- style.css com tags para realçar ações nos links -->
+						<ul>
+							<li><a href="index.html">Principal</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="contatos.html">Contatos</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+		<!-- Definir o conteúdo principal dentro do <body> na página -->
+		<main>
+			<!-- Definir lista de itens desordenada -->
+			<!-- style.css com tags para realçar ações nos links -->
+			<ul class="produtos">
+				<li>
+					<h2>Cabelo</h2>
+					<img src="img/cabelo.jpg" alt="Produto: corte de cabelo">
+					<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+					<p class="produto-preco">R$ 25,00</p>
+				</li>
+				<li>
+					<h2>Barba</h2>
+					<img src="img/barba.jpg" alt="Produto: corte de barba">
+					<p class="produto-descricao">Corte e desenho profissional de barba</p>
+					<p class="produto-preco">R$ 18,00</p>
+				</li>
+				<li>
+					<h2>Cabelo + Barba</h2>
+					<img src="img/cabelo+barba.jpg" alt="Produto: corte de cabelo e barba">
+					<p class="produto-descricao">Pacote completo de cabelo e barba</p>
+					<p class="produto-preco">R$ 35,00</p>
+				</li>
+			</ul>
+		</main>
+
+		<!-- Definir o rodapé da página  -->
+		<footer>
+			<img src="img/logo-branco.png" alt="Logotipo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+
+	</body>
+</html>

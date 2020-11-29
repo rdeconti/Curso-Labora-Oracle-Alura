@@ -1,0 +1,149 @@
+<!--
+		****************************************************************************
+	    Projeto Labora/Alura/Oracle ONE
+	    Curso Alura: HTML5 e CSS3
+	    Aluna: Rosemeire Deconti
+	    Exercício: Página WEB para Barbearia Alura
+	    Data: Novembro/2020
+		****************************************************************************
+			Arquivo contatos.html: página de contatos da Barbearia Alura
+		****************************************************************************
+-->
+
+<!-- Informar ao navegador a versão do HTML utilizada pela página -->
+<!DOCTYPE html>
+
+<!-- Informar ao navegador o início da codificação HTML -->
+<!-- Informar ao navegador o idioma da página (permite tradução da página) -->
+<html lang="pt-br">
+
+	<!-- Cabeçalho: informações para o navegador -->
+	<head>
+		<!-- Conjunto de regras representação dos caracteres (exemplo: acentuação) -->
+		<meta charset="UTF-8">
+		<!-- Controlar o layout em navegadores de dispositivos móveis -->
+		<meta name="viewport" content="width=device-width">
+		<!-- Título do site (utilizado na aba do navegador) -->
+		<title>Barbearia Alura - Principal</title>
+		<!-- Remover toda formatação “original” aplicada pelo browser -->
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Endereço das folha de estilos utilizadas pela página -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonte externa utilizada pela página -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<!-- Definir o conteúdo da página -->
+	<body>
+		<!-- Definir o cabeçalho da página -->
+		<header>
+			<!-- Definir divisão: conteúdo do header -->
+			<div class="caixa">
+				<!-- Exibe o logotipo da empresa com texto alternativo a imagem caso esta não seja encontrada -->
+				<h1><img src="img/logo-negro.png" alt="Logotipo da Barbearia Alura"></h1>
+				<!-- Definir seção de links de navegação -->
+				<nav>
+					<!-- Definir lista de itens desordenada -->
+					<!-- style.css com tags para realçar ações nos links -->
+					<ul>
+						<li><a href="index.html">Principal</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contatos.html">Contatos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Definir o conteúdo principal dentro do <body> na página -->
+		<main>
+			<!-- Definir formulário na página -->
+			<form>
+				<!-- Definir divisão para dados do cliente da empresa -->
+				<div class="caixa-formulario">
+					<h2 class="titulo-principal">Informe seus dados de contato</h2>
+					<!-- Definir label e tipo de input para "Nome e sobrenome" -->
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+					<!-- Definir label e tipo de input para "Email" -->
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+					<!-- Definir label e tipo de input para "Telefone" -->
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+					<!-- Definir label e tipo de input para "Mensagem" -->
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+				</div>
+				<!-- Definir divisão para preferência de contato -->
+				<div class="caixa-formulario">
+					<!-- Definir fieldset para agrupar formas de contato preferenciais -->
+					<fieldset>
+						<!-- Definir rotulo para fieldset (não é label!)-->
+						<legend class="titulo-principal">Como prefere o nosso contato?</legend>
+						<!-- Definir botão para opção e-mail (name igual para todas as opções: o usuário vai escolher somente uma das opções)-->
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+						<!-- Definir botão para opção telefone (name igual para todas as opções: o usuário vai escolher somente uma das opções)-->
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+						<!-- Definir botão para opção whatsapp (name igual para todas as opções: o usuário vai escolher somente uma das opções)-->
+						<!-- Esta opção definida como padrão (checked) -->
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+					</fieldset>
+				</div>
+				<!-- Definir divisão para preferência de horário de atendimento -->
+				<div class="caixa-formulario">
+					<!-- Definir fieldset para agrupar horários preferenciais de atendimento -->
+					<fieldset>
+						<!-- Definir rotulo para fieldset (não é label!)-->
+						<legend class="titulo-principal">Qual horário prefere ser atendido?</legend>
+						<!-- Definir menu de opções para serem escolhidas pelo usuário (lista drop-down)-->
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+				</div>
+				<!-- Definir divisão para preferência do usuário sobre receber novidades -->
+				<div class="caixa-formulario">
+					<!-- Definir questão com resposta simples: "sim" ou "não" (checkbox)-->
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+				</div>
+				<!-- Definir divisão para botão de enviar dados -->
+				<div class="caixa-botao">
+					<!-- Definir botão para enviar dados do formulário para serem processados -->
+					<!-- Arquivo Style.css tem efeitos especiais para o botão -->
+					<input type="submit" value="Clique aqui para cadastrar seus dados!" class="enviar">
+				</div>
+			</form>
+			<!-- Definir divisão para mostrar horário de funcionamento da empresa -->
+			<div class="caixa-formulario">
+						<h2 class="titulo-principal">Horários de funcionamento</h2>
+						<!-- Definir tabela com 2 colunas e 4 linhas -->
+						<table>
+							<tr>
+								<td>Dia</td>
+								<td>Horário</td>
+							</tr>
+							<tr>
+								<td>Segunda</td>
+								<td>8h ~ 20h</td>
+							</tr>
+							<tr>
+								<td>Quarta</td>
+								<td>8h ~ 20h</td>
+							</tr>
+							<tr>
+								<td>Sexta</td>
+								<td>8h ~ 20h</td>
+							</tr>
+						</table>
+			</div>
+		</main>
+
+		<!-- Definir o rodapé da página  -->
+		<footer>
+			<img src="img/logo-branco.png" alt="Logotipo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+<!--
+		****************************************************************************
+	    Projeto Labora/Alura/Oracle ONE
+	    Curso Alura: HTML5 e CSS3
+	    Aluna: Rosemeire Deconti
+	    Exercício: Página WEB para Barbearia Alura
+	    Data: Novembro/2020
+		****************************************************************************
+			Arquivo index.html: Página principal com informações da Barbearia Alura
+		****************************************************************************
+-->
+
+<!-- Informar ao navegador a versão do HTML utilizada pela página -->
+<!DOCTYPE html>
+
+<!-- Informar ao navegador o início da codificação HTML -->
+<!-- Informar ao navegador o idioma da página (permite tradução da página) -->
+<html lang="pt-br">
+
+	<!-- Cabeçalho: informações para o navegador -->
+	<head>
+		<!-- Conjunto de regras representação dos caracteres (exemplo: acentuação) -->
+		<meta charset="UTF-8">
+		<!-- Controlar o layout em navegadores de dispositivos móveis -->
+		<meta name="viewport" content="width=device-width">
+		<!-- Título do site (utilizado na aba do navegador) -->
+		<title>Barbearia Alura - Principal</title>
+		<!-- Remover toda formatação “original” aplicada pelo browser -->
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Endereço das folha de estilos utilizadas pela página -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonte externa utilizada pela página -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<!-- Definir o conteúdo da página -->
+	<body>
+		<!-- Definir o cabeçalho da página -->
+		<header>
+			<!-- Definir divisão: conteúdo do header -->
+			<div class="caixa">
+				<!-- Exibe o logotipo da empresa com texto alternativo a imagem caso esta não seja encontrada -->
+				<h1><img src="img/logo-negro.png" alt="Logotipo da Barbearia Alura"></h1>
+				<!-- Definir seção de links de navegação -->
+				<nav>
+					<!-- Definir lista de itens desordenada -->
+					<!-- style.css com tags para realçar ações nos links -->
+					<ul>
+						<li><a href="index.html">Principal</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contatos.html">Contatos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Exibe o banner da empresa com texto alternativo a imagem caso esta não seja encontrada -->
+		<img class="banner" src="img/banner.jpg" alt="Banner da Barbearia Alura">
+
+		<!-- Definir o conteúdo principal dentro do <body> na página -->
+		<main>
+			<!-- Definir seção para os dados da empresa -->
+			<section class="principal">
+				<!-- Definir o título da empresa -->
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+				<!-- Definir imagem com texto alternativo a imagem caso esta não seja encontrada -->
+				<img class="utensilios" src="img/utensilios.jpg" alt="Utensilios de um barbeiro.">
+				<!-- Definir a localização da empresa  -->
+				<p>Localizada no coração da cidade a
+					<strong>Barbearia Alura</strong>
+					traz para o mercado o que há de melhor para o seu cabelo e barba.
+					Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+				<!-- Definir a missão da empresa e enfatizar com strong -->
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+				<!-- Definir detalhes da empresa -->
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.
+					O atendimento possui padrão de excelência e agilidade, garantindo
+					qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<!-- Definir seção para exibir localização da empresa -->
+			<section class="mapa">
+				<!-- Definir titúlo da localzação -->
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<!-- Definir detalhes da localização -->
+				<p>Nosso estabelecimento está localizado no coração da cidade.</p>
+				<!-- Definir divisão para incluir o mapa de localização obtido no Google Maps e exibido com iframe -->
+				<div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr"
+					width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</section>
+
+			<!-- Definir seção para exibir os benefícios oferecidos pela empresa -->
+			<section class="beneficios">
+				<!-- Definir titúlo dos benefícios -->
+				<h3 class="titulo-principal">Benefícios</h3>
+				<!-- Definir divisão para exibir a lista de beneficios da empresa -->
+				<div class="beneficios-conteudo">
+					<ul class="beneficios-lista">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="img/beneficios.jpg" class="beneficios-imagem">
+				</div>
+				<!-- Definir divisão para exibir vídeo sobre a empresa -->
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
+
+		<!-- Definir o rodapé da página  -->
+		<footer>
+			<img src="img/logo-branco.png" alt="Logotipo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+	</body>
+</html>
