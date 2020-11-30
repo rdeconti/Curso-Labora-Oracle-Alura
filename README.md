@@ -63,7 +63,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 # CERTIFICADOS DE CONCLUSÃO
 ### <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Certificados%20de%20conclus%C3%A3o">Certificados de conclusão de cada um dos cursos</a>
 
-# PROJETOS EXECUTADOS DURANTE O CURSO
+# PROJETOS PROPOSTOS PELO CURSO
 
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
@@ -71,3 +71,11 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 | Aparecida Nutricionista| Website - Pacientes de clinica | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2002%20-%20Aparecida%20Nutricionista">Link</a> |
 | Alura News| Website - Notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2004%20-%20Not%C3%ADcias">Link</a> |
 | Conferência Alura| Website - projeto de final de curso | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2005%20-%20Alura%20Conference">Link</a> |
+
+# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR 0 CURSO
+
+| Projeto | Descrição | Situação | Link |
+| --- | --- | --- | --- |
+| ||||
+| ||||
+| ||||
