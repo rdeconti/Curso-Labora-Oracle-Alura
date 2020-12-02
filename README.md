@@ -74,8 +74,9 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 
 # PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO
 
+
+
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
-| ||||
-| ||||
-| ||||
+| MusicDot| Website - MusicDot | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2001%20-%20Musicdot">Link</a> |
+| Minute News| Website - Página de notícias | Em andamento :warning: | <a href="hhttps://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2002%20-%20Minute%20News">Link</a> |
