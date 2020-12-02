@@ -72,7 +72,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 | Alura News| Website - Notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2004%20-%20Not%C3%ADcias">Link</a> |
 | Conferência Alura| Website - projeto de final de curso | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2005%20-%20Alura%20Conference">Link</a> |
 
-# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR 0 CURSO
+# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO
 
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
