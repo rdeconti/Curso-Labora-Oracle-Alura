@@ -1,0 +1,25 @@
+/*
+****************************************************************************
+Project Labora/Alura/Oracle ONE
+Training Alura: Programming, HTML5, CSS3 e JAVASCRIPT
+Student: Rosemeire Deconti
+Description: Create a page with news
+Challenge: https://github.com/Infoglobo/desafio-front-end
+Date: November/2020
+****************************************************************************
+*/
+
+.mapIframe {
+	width: 100%;
+
+}
+
+.mapContents {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.mapSection {
+	width: 100%;
+	background-color: yellow;
+}

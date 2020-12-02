@@ -1,0 +1,439 @@
+<!--
+****************************************************************************
+  Project Labora/Alura/Oracle ONE
+  Training Alura: Programming, HTML5, CSS3 e JAVASCRIPT
+  Student: Rosemeire Deconti
+  Description: Create a page with news
+  Challenge: https://github.com/Infoglobo/desafio-front-end
+  Date: November/2020
+****************************************************************************
+-->
+
+<!DOCTYPE html>
+
+<html lang="pt-br" dir="ltr">
+
+  <!------------------------------------------------------------------- HEAD -->
+  <head>
+
+    <!---------------------------------------- Define the character set used -->
+    <meta charset="utf-8">
+
+    <!----Setting the viewport to make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!------------------------------- Load external font to be used by pages -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!------------ Defines the title of the document in the tab windows page -->
+    <title>Minuto News - Início</title>
+
+    <!--------------------------------------- Link stylesheet usede by pages -->
+    <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="css/dividers.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/graphs.css">
+		<link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/selection.css">
+    <link rel="stylesheet" href="css/slideShow.css">
+
+  </head>
+
+  <!------------------------------------------------------------------- BODY -->
+  <body>
+
+    <!--------------------------------------------------------------- HEADER -->
+    <header class="headerSection">
+
+        <img class="headerLogo" src="img/logotipo.jpg" alt="Logotipo do Minuto News">
+
+        <ul class="headerTopnav">
+
+          <li><a href="index.html">Início</a></li>
+
+          <li class="dropdown">
+
+            <a href="#" class="dropbtn">Brasil <i>&#9660</i></a>
+
+            <div class="dropdown-content">
+              <a href="#">Submenu 01</a>
+              <a href="#">Submenu 02</a>
+              <a href="#">Submenu 03</a>
+              <a href="#">Submenu 04</a>
+              <a href="#">Submenu 05</a>
+            </div>
+
+          </li>
+
+          <li><a href="#">Mundo</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Assine</a></li>
+
+        </ul>
+
+    </header>
+
+    <!-------------------------------------------------------------- DIVIDER -->
+    <hr class="divider01">
+
+    <!----------------------------------------------------------------- MAIN -->
+    <main>
+
+      <!--------------------------------------------------------- SLIDE SHOW -->
+      <section class="slideShowSection">
+
+          <div class="slideShowCarousel slideShowFade">
+            <div class="slideShowNumber">1 / 5</div>
+            <div class="slideShowText">Notícia 1</div>
+            <img class="slideShowImage" src="slides/1.jpg">
+          </div>
+
+          <div class="slideShowCarousel slideShowFade">
+            <div class="slideShowNumber">2 / 5</div>
+            <div class="slideShowText">Notícia 2</div>
+            <img class="slideShowImage" src="slides/2.jpg">
+          </div>
+
+          <div class="slideShowCarousel slideShowFade">
+            <div class="slideShowNumber">3 / 5</div>
+            <div class="slideShowText">Notícia 3</div>
+            <img class="slideShowImage" src="slides/3.jpg">
+          </div>
+
+          <div class="slideShowCarousel slideShowFade">
+            <div class="slideShowNumber">4 / 5</div>
+            <div class="slideShowText">Notícia 4</div>
+            <img class="slideShowImage" src="slides/4.jpg">
+          </div>
+
+          <div class="slideShowCarousel slideShowFade">
+            <div class="slideShowNumber">5 / 5</div>
+            <div class="slideShowText">Notícia 5</div>
+            <img class="slideShowImage" src="slides/5.jpg">
+          </div>
+
+        <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="slideShowDotDivision">
+          <span class="slideShowDot" onclick="currentSlide(1)"></span>
+          <span class="slideShowDot" onclick="currentSlide(2)"></span>
+          <span class="slideShowDot" onclick="currentSlide(3)"></span>
+          <span class="slideShowDot" onclick="currentSlide(4)"></span>
+          <span class="slideShowDot" onclick="currentSlide(5)"></span>
+        </div>
+
+      </section>
+
+      <!----------------------------------------------------- CLASSIFICATION -->
+      <section class="selectionSection">
+
+        <div class="selectionContainer">
+
+          <div class="selectionContainerTitle">
+
+            <p class="selectionTitle01">Editorias</p>
+
+          </div>
+
+          <div class="selectionContainerTitle">
+
+            <p class="selectionTitle02">Ordenar por: </p>
+
+          </div>
+
+          <div class="selectionContainerOrder">
+
+            <select class="selectionSelect">
+
+              <option>Data</option>
+              <option>Editoria</option>
+              <option>Noticia</option>
+
+            </select>
+
+          </div>
+
+          <div class="selectionContainerTitle">
+
+            <p class="selectionTitle02">Filtrar por: </p>
+
+          </div>
+
+          <div class="selectionContainerFilter">
+
+            <select class="selectionSelect">
+
+              <option>Editoria</option>
+              <option>Esporte</option>
+              <option>Pais</option>
+              <option>Rio</option>
+              <option>Cultura</option>
+              <option>Internacional</option>
+              <option>Todos</option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--------------------------------------------------------------- NEWS -->
+      <section class="newsSection">
+
+        <table class="newsTable">
+
+          <tr class="newsLine">
+
+            <td class="newsColumn">
+
+              <div class="newsDivision">
+
+                <p class="newsCounter"><span class=newsNumber>1</span> / <span class="newsTotal">6</span></p>
+
+                <ul class="newsFirstLine">
+                  <li><p class="newsDate">14/11/2020</p></li>
+                  <li><p class="newsEditoria">Governo</p></li>
+                </ul>
+
+                <img class="newsImage" src="news/1.jpg" alt="">
+
+                <p class="newsTitle">Título da notícia</p>
+                <p class="newsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="newsMore">Saiba mais</p>
+
+              </div>
+
+            </td>
+
+            <td class="newsColumn">
+
+              <div class="newsDivision">
+
+                <p class="newsCounter"><span class=newsNumber>2</span> / <span class="newsTotal">6</span></p>
+                <ul class="newsFirstLine">
+                  <li><p class="newsDate">14/11/2020</p></li>
+                  <li><p class="newsEditoria">Governo</p></li>
+                </ul>
+                <img class="newsImage" src="news/1.jpg" alt="">
+                <p class="newsTitle">Título da notícia</p>
+                <p class="newsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="newsMore">Saiba mais</p>
+
+              </div>
+
+            </td>
+
+            <td class="newsColumn">
+
+              <div class="newsDivision">
+
+                <p class="newsCounter"><span class=newsNumber>3</span> / <span class="newsTotal">6</span></p>
+                <ul class="newsFirstLine">
+                  <li><p class="newsDate">14/11/2020</p></li>
+                  <li><p class="newsEditoria">Governo</p></li>
+                </ul>
+                <img class="newsImage" src="news/1.jpg" alt="">
+                <p class="newsTitle">Título da notícia</p>
+                <p class="newsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="newsMore">Saiba mais</p>
+
+              </div>
+
+            </td>
+
+          </tr>
+
+          <tr class="newsLine">
+
+            <td class="newsColumn">
+
+              <div class="newsDivision">
+
+                <p class="newsCounter"><span class=newsNumber>4</span> / <span class="newsTotal">6</span></p>
+                <ul class="newsFirstLine">
+                  <li><p class="newsDate">14/11/2020</p></li>
+                  <li><p class="newsEditoria">Governo</p></li>
+                </ul>
+                <img class="newsImage" src="news/1.jpg" alt="">
+                <p class="newsTitle">Título da notícia</p>
+                <p class="newsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="newsMore">Saiba mais</p>
+
+              </div>
+
+            </td>
+
+            <td class="newsColumn">
+
+              <div class="newsDivision">
+
+                <p class="newsCounter"><span class=newsNumber>5</span> / <span class="newsTotal">6</span></p>
+                <ul class="newsFirstLine">
+                  <li><p class="newsDate">14/11/2020</p></li>
+                  <li><p class="newsEditoria">Governo</p></li>
+                </ul>
+                <img class="newsImage" src="news/1.jpg" alt="">
+                <p class="newsTitle">Título da notícia</p>
+                <p class="newsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="newsMore">Saiba mais</p>
+
+              </div>
+
+            </td>
+
+            <td class="newsColumn">
+
+              <div class="newsDivision">
+
+                <p class="newsCounter"><span class=newsNumber>6</span> / <span class="newsTotal">6</span></p>
+                <ul class="newsFirstLine">
+                  <li><p class="newsDate">14/11/2020</p></li>
+                  <li><p class="newsEditoria">Governo</p></li>
+                </ul>
+                <img class="newsImage" src="news/1.jpg" alt="">
+                <p class="newsTitle">Título da notícia</p>
+                <p class="newsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="newsMore">Saiba mais</p>
+
+              </div>
+
+            </td>
+
+          </tr>
+
+        </table>
+
+      </section>
+
+      <!------------------------------------------------------------ DIVIDER -->
+      <hr class="divider02">
+
+      <!-------------------------------------------------------------- GRAPH -->
+      <section class="graphSection">
+
+        <p class="graphTitle01">Editorias mais acessadas</p>
+
+        <div class="graphContainer">
+
+          <div class="graphContainerDrawn">
+
+            <div class="graphData" id="chartDrawn"></div>
+
+          </div>
+
+          <div class="graphContainerContents1">
+
+            <p class="graphTitle02">Título aqui</p>
+            <p class="graphText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+          </div>
+
+          <div class="graphContainerContents2">
+
+            <p class="graphText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!------------------------------------------------------------ DIVIDER -->
+      <hr class="divider02">
+
+      <!---------------------------------------------------------------- MAP -->
+			<section class="mapSection">
+
+				<div class="mapContents">
+
+					<iframe class="mapsIframe"src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d158858.47340138946!2d-0.2416815344309093!3d51.52855824125855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srua%20dos%20alfeneiros%20londres%204!5e0!3m2!1spt-BR!2sbr!4v1605298508841!5m2!1spt-BR!2sbr"
+					width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        </div>
+
+			</section>
+
+      <!------------------------------------------------------------ CONTACT -->
+      <section class="contactSection">
+
+        <div class="contactContainer">
+
+          <div class="contactContainerAddress">
+
+            <div class="contactContainerContents">
+
+              <p class="contactAddressTitle1">Entre em contato</p>
+              <br>
+              <p class="contactAddressTitle2">Onde nos achar</p>
+              <br>
+              <p>Rua dos Alfeneiros, número 4</p>
+              <p>00-91102</p>
+              <p>Little Whitning</p>
+              <p>Londres/Inglaterra</p>
+              <br>
+              <p>(21) 4004 - 1234</p>
+              <p>(21) 4004 - 4321</p>
+              <br>
+              <p>contato@minutonews.com.br</p>
+              <br>
+              <p>Aberto de segunda a sexta das 09h as 19h</p>
+
+            </div>
+
+          </div>
+
+          <div class="contactContainerEmail">
+
+            <div class="contactContainerContents">
+
+              <p class="contactFormTitle">Mande uma mensagem</p>
+              <br>
+
+              <label class="contactFormLabel" for="nomesobrenome">Seu nome:</label>
+              <input class="contactFormInput" type="text" id="nomesobrenome" required>
+              <br>
+
+              <label class="contactFormLabel" for="email">Email:</label>
+              <input class="contactFormInput" type="email" id="email" required>
+              <br>
+
+              <label class="contactFormLabel" for="mensagem">Mensagem:</label>
+              <textarea class="contactFormInput" cols="70" rows="10" id="mensagem" required></textarea>
+              <br>
+
+              <input class="contactFormSend" type="submit" value="Enviar" >
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <!--------------------------------------------------------------- FOOTER -->
+		<footer>
+
+			<p class="copyright"> &copy; Entrevista <i>&#124</i> Front-End</p>
+
+		</footer>
+
+    <!----------------------------------------------- INCLUDE JAVASCRIPT FILES -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type="text/javascript" src="js/readJsonData.js"></script>
+    <script type="text/javascript" src="js/controlGraphShow.js"></script>
+    <script type="text/javascript" src="js/controlNewsShow.js"></script>
+    <script type="text/javascript" src="js/controlSlideShow.js"></script>
+
+  </body>
+
+</html>

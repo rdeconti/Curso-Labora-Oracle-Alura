@@ -1,0 +1,101 @@
+/*
+****************************************************************************
+Project Labora/Alura/Oracle ONE
+Training Alura: Programming, HTML5, CSS3 e JAVASCRIPT
+Student: Rosemeire Deconti
+Description: Create a page with news
+Challenge: https://github.com/Infoglobo/desafio-front-end
+Date: November/2020
+****************************************************************************
+*/
+
+.newsSection{
+  width: auto;
+  margin: 5px;
+  background-color: white;
+}
+
+.newsTable{
+  width: auto;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+.newsLine{
+  width: auto;
+  padding: 20px;
+}
+
+.newsColumn{
+  width: 25%;
+  background-color: white;
+}
+
+.newsDivision{
+  width: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid brown;
+}
+
+.newsImage{
+  padding:10px;
+  max-width:200px;
+  max-height:150px;
+}
+
+.newsFirstLine li{
+  width: auto;
+	display: inline-block;
+}
+
+.newsDate{
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.newsEditoria{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.newsCounter{
+  margin-left: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+.newsNumber{
+  font-weight: bold;
+  color: red;
+}
+
+.newsTotal{
+  font-weight: bold;
+  color: red;
+}
+
+.newsText{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  max-width:200px;
+  max-height:400px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:normal;
+}
+
+.newsTitle{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.newsMore{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
