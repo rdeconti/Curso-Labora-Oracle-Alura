@@ -1,0 +1,4 @@
+Programar botão search
+Programar botão menu
+Colocar footer com seniores digitais e logos Alura, Labora, Oracle
+Corrigir acentuação da palavra grávida em maiúsculo

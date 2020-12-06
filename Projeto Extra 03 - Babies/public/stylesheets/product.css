@@ -1,0 +1,54 @@
+/**
+    Projeto Labora/Alura/Oracle ONE
+    Aluna: Rosemeire Deconti
+    Desafio - Front-End Developer
+    Data: Dezembro/2020
+**/
+
+/* ------------------------------------------------------------------ Classes */
+.productContainer{
+	margin:0px;
+  background-color: #FFFFFF;
+	text-align: center;
+}
+
+.productImage{
+	width: 50%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.productHeader{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 0px;
+	margin-bottom: 4px;
+}
+
+.productParagraph{
+	width: 50%;
+	font-size: 20px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.productLine{
+	width: auto;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.productLine li{
+	display: inline-block;
+	text-align: center;
+	width: 48%;
+	vertical-align: top;
+	padding: 10px;
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+/**
+    Projeto Labora/Alura/Oracle ONE
+    Aluna: Rosemeire Deconti
+    Desafio - Front-End Developer
+    Data: Dezembro/2020
+**/
+
+/* ------------------------------------------------------------------ Classes */
+.menuIconContainer {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menuIconBar1, .menuIconBar2, .menuIconBar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #FFFFFF;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .menuIconBar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .menuIconBar2 {opacity: 0;}
+
+.change .menuIconBar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
