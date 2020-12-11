@@ -1,0 +1,28 @@
+/**
+********************************************************************************
+Projeto Seniores Digitais - Labora/Alura/Oracle ONE
+Aluna: Rosemeire Deconti
+Desafio - https://github.com/enextgroup/quero-trabalhar-na-enext
+Data: Dezembro/2020
+********************************************************************************
+**/
+/** ---------------------------------------------------------------- Classes **/
+.fa-search {
+  background-color: #FFFFFF;
+  color: #D8402C;
+  font-size: 25px;
+}
+
+.fa-social-networks{
+   color: #E6E6E6;
+   background-color: #53336A;
+}
+
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+ /** ------------------------------------------------------------ Media Query **/

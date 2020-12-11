@@ -1,0 +1,282 @@
+<!--
+********************************************************************************
+Projeto Seniores Digitais - Labora/Alura/Oracle ONE
+Aluna: Rosemeire Deconti
+Desafio - https://github.com/enextgroup/quero-trabalhar-na-enext
+Data: Dezembro/2020
+********************************************************************************
+Colors in use:
+#000000 - Black
+#FFFFFF - White
+#523468 - Second navigation not active
+#422A53 - Second navigation active
+#D9482E - Title H1-01
+#513368 - Title H2-01 (letters)
+#D2D2D2 - Title H2-01 (horizontal line)
+#D8402C - Title P1-01 and P1-02
+#D73A1E - Title basket number
+#B3B3B3 - Title basket text
+-->
+
+<!DOCTYPE html>
+
+<!--------------------------------------------------------------- START HTML -->
+<html lang="en" dir="ltr">
+
+  <!------------------------------------------------------------- START HEAD -->
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+
+    <!-- Reset style sheets --------------------------------------------------->
+		<link rel="stylesheet" href="/stylesheets/reset.css">
+
+    <!-- Style sheets --------------------------------------------------------->
+		<link rel="stylesheet" href="/stylesheets/base.css">
+		<link rel="stylesheet" href="/stylesheets/footer.css">
+		<link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/header-01.css">
+    <link rel="stylesheet" href="/stylesheets/header-02.css">
+    <link rel="stylesheet" href="/stylesheets/icons.css">
+		<link rel="stylesheet" href="/stylesheets/product.css">
+    <link rel="stylesheet" href="/stylesheets/tags.css">
+
+    <!-- Shearch icon --------------------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- https://fonts.google.com/ -------------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- Windows tab name ----------------------------------------------------->
+    <title>Merlin's Potions</title>
+
+  </head>
+
+  <!------------------------------------------------------------- START BODY -->
+  <body>
+
+    <!--------------------------------------------------------- START HEADER -->
+    <header class="base-container">
+      <!-- First header ------------------------------------------------------->
+      <section class="header-01-section-01">
+        <nav>
+          <ul class="header-01-unordered-list-01">
+            <!-- Header: Company Logo ------------------------------------------->
+            <li>
+                <h1><a class="header-01-h1-01" href="#">Merlin´s Potions</a></h1>
+                <h2><a class="header-01-h2-01" href="#"><span class="header-01-h2-02">---</span> fine poisons since 1026 <span class="header-01-h2-02">---</span></a></h2>
+            </li>
+            <!-- Header: Search bar --------------------------------------------->
+            <li>
+              <div class="header-01-search-container">
+                <form action="/action_page.php">
+                  <!-- https://fontawesome.com/icons/search?style=solid --------->
+                  <button class="header-01-button-search" type="submit"><i class="fas fa-search"></i></button>
+                  <input class="header-01-search-input" type="text" placeholder="Search our stock" name="search">
+                </form>
+              </div>
+            </li>
+            <!-- Header: Free shipping ------------------------------------------>
+            <li>
+                <p><a class="header-01-p1-01" href="#"><span class="header-01-p1-02">Free</span> shipping</a></p>
+                <p><a class="header-01-p1-03" href="#">on orders over $50</a></p>
+            </li>
+            <!-- Header: Basket ------------------------------------------------->
+            <li>
+              <img class="header-01-basket-image" src="./images/cauldron.png"  alt="Your basket"
+              <p><a class="header-01-basket-text" href="#">Bag: </a><span class="header-01-basket-number" id="header-01-basket-number">1</span></p>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- Second header ------------------------------------------------------>
+      <section class="header-02-section-01" id="myTopnav">
+        <nav>
+          <ul class="header-02-unordered-list-01">
+            <!-- Dropdown: Potions -------------------------------------------->
+            <li>
+              <div class="header-02-dropdown" id="myTopnav">
+                <button class="header-02-dropbtn">Potions <i class="fa fa-caret-down"></i></button>
+                <div class="header-02-dropdown-content">
+                  <a class="header-02-anchor-01" href="#">Potions 1</a>
+                  <a class="header-02-anchor-01" href="#">Potions 2</a>
+                  <a class="header-02-anchor-01" href="#">Potions 3</a>
+                </div>
+              </div>
+            </li>
+            <!-- Dropdown: Ingredients ---------------------------------------->
+            <li>
+              <div class="header-02-dropdown" id="myTopnav">
+                <button class="header-02-dropbtn">Ingredients <i class="fa fa-caret-down"></i></button>
+                <div class="header-02-dropdown-content">
+                  <a class="header-02-anchor-01" href="#">Ingredients 1</a>
+                  <a class="header-02-anchor-01" href="#">Ingredients 2</a>
+                  <a class="header-02-anchor-01" href="#">Ingredients 3</a>
+                </div>
+              </div>
+            </li>
+            <!-- Dropdown: Books ---------------------------------------------->
+            <li>
+              <div class="header-02-dropdown" id="myTopnav">
+                <button class="header-02-dropbtn">Books <i class="fa fa-caret-down"></i></button>
+                <div class="header-02-dropdown-content">
+                  <a class="header-02-anchor-01" href="#">Books 1</a>
+                  <a class="header-02-anchor-01" href="#">Books 2</a>
+                  <a class="header-02-anchor-01" href="#">Books 3</a>
+                </div>
+              </div>
+            </li>
+            <!-- Dropdown: Supplies ------------------------------------------->
+            <li>
+              <div class="header-02-dropdown" id="myTopnav">
+                <button class="header-02-dropbtn">Supplies <i class="fa fa-caret-down"></i></button>
+                <div class="header-02-dropdown-content">
+                  <a class="header-02-anchor-01" href="#">Supplies 1</a>
+                  <a class="header-02-anchor-01" href="#">Supplies 2</a>
+                  <a class="header-02-anchor-01" href="#">Supplies 3</a>
+                </div>
+              </div>
+            </li>
+            <!-- Dropdown: Charms --------------------------------------------->
+            <li>
+              <div class="header-02-dropdown" id="myTopnav">
+                <button class="header-02-dropbtn">Charms <i class="fa fa-caret-down"></i></button>
+                <div class="header-02-dropdown-content">
+                  <a class="header-02-anchor-01" href="#">Charms 1</a>
+                  <a class="header-02-anchor-01" href="#">Charms 2</a>
+                  <a class="header-02-anchor-01" href="#">Charms 3</a>
+                </div>
+              </div>
+            </li>
+            <!-- Dropdown: Clearance------------------------------------------->
+            <li>
+              <a class="header-02-anchor-01" href="#">Clearance</a>
+            </li>
+            <!-- Dropdown: Sign in -------------------------------------------->
+            <li>
+              <a class="header-02-anchor-01" href="#">Sign in</a>
+            </li>
+            <!-- Dropdown: Sign off ------------------------------------------->
+            <li>
+              <a class="header-02-anchor-01" href="#">Sign off</a>
+            </li>
+            <!-- Responsive Menu Icon ----------------------------------------->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <!----------------------------------------------------- MESSAGES TO USER -->
+    <div id="baseMessage" class="baseMessage">
+      <span>Tivemos um problema. Por favor, tente novamente!</span>
+    </div>
+    <!----------------------------------------------------------- START MAIN -->
+    <main class="base-container">
+      <!------------------------------------------------- POTIONS PORTIFOLIO -->
+      <section class="productContainer">
+
+        <ul class="productLine" id="productLine">
+
+        </ul>
+
+      </section>
+
+    </main>
+    <!--------------------------------------------------------- START FOOTER -->
+    <footer>
+      <!------------------------------------------------------- FOOTER FIRST -->
+      <section class="footer-data-1">
+
+        <ul class="footer-unordered-list-00">
+
+          <li>
+
+            <ul class="footer-unordered-list-01">
+
+              <li>
+
+                <ul class="footer-unordered-list-02">
+
+                  <li><a class="footer-anchor-1" href="#">Company</a></li>
+                  <li><a class="footer-anchor-1" href="#">Contact us</a></li>
+                  <li><a class="footer-anchor-1" href="#">Shipping</a></li>
+                  <li><a class="footer-anchor-1" href="#">Returns</a></li>
+                  <li><a class="footer-anchor-1" href="#">Careers</a></li>
+
+                </ul>
+
+                <ul class="footer-unordered-list-03">
+
+                  <!-- https://fontawesome.com/v4.7.0/icon/facebook -->
+                  <li><i class="fa fa-facebook fa-social-networks" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-twitter fa-social-networks" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-pinterest fa-social-networks" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-tumblr fa-social-networks" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-google-plus-official fa-social-networks" aria-hidden="true"></i></li>
+
+                </ul>
+
+                <p class="footer-paragraph-1">&copy; 2015 Merlin's Potions. All Rigths reserved</p>
+
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li>
+
+            <div class="form-data">
+
+              <h1 class="form-title-01"><span class="footer-title-uppercase">S</span>ign up for our <span class="footer-title-uppercase">N</span>ewsletter</h1>
+              <h2 class="form-title-02"><span class="footer-title-uppercase">S</span>ign up our newsletter & get exclusive discounts</h2>
+
+              <form class="form-box" action="index.html" method="post">
+
+                <input class="form-input" type="email" id="email" required placeholder="Enter your email">
+                <input class="form-button" type="submit" value="Submit">
+
+              </form>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+      <!------------------------------------------------------ FOOTER SECOND -->
+      <section class="footer-data-2">
+        <p class="footer-paragraph-2">Projeto Seniores Digitais 2020</p>
+      </section>
+    </footer>
+    <!----------------------------------------------------- START JAVASCRIPT -->
+    <!-- https://fontawesome.com/kits/c17de2d911/use?welcome=yes -------------->
+    <script src="https://kit.fontawesome.com/c17de2d911.js" crossorigin="anonymous"></script>
+
+    <!------------------------------------------------- START OWN JAVASCRIPT -->
+    <script src="javascripts/getDataJson.js" ></script>
+
+    <script>
+
+      function myFunction() {
+
+        var x = document.getElementById("myTopnav");
+
+        if (x.className === "header-02-topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "header-02-topnav";
+        }
+
+      }
+
+    </script>
+
+  </body>
+
+</html>

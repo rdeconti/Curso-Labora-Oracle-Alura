@@ -1,0 +1,15 @@
+{
+  "name": "potions",
+  "version": "1.0.0",
+  "description": "Merlin's Potions WebPage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rosemeire Deconti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1"
+  }
+}

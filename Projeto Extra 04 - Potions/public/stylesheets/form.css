@@ -1,0 +1,78 @@
+/**
+********************************************************************************
+Projeto Seniores Digitais - Labora/Alura/Oracle ONE
+Aluna: Rosemeire Deconti
+Desafio - https://github.com/enextgroup/quero-trabalhar-na-enext
+Data: Dezembro/2020
+********************************************************************************
+**/
+
+/* ------------------------------------------------------------------ Classes */
+.form-data{
+	width: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.form-box{
+	width: auto;
+	box-sizing: border-box;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	text-align: left;
+}
+
+.form-button {
+	width: auto;
+	font-size: 20px;
+	margin: 5px;
+	box-sizing: border-box;
+	border: 1px solid #D73A1E;
+	border-radius: 10px;
+	background-color: #D73A1E;
+	color: #FFFFFF;
+}
+
+.form-button:hover {
+	font-weight: bold;
+}
+
+.form-input{
+	width: auto;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+.form-title-01{
+	color: #000000;
+	font-size: 20px;
+  font-style: italic;
+	font-weight: bold;
+  text-transform: lowercase;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.form-title-02{
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+  text-transform: lowercase;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.footer-title-uppercase{
+  text-transform: capitalize;
+  text-decoration: none;
+}
