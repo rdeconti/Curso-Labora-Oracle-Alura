@@ -82,6 +82,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 | Potions| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2004%20-%20Potions">Link</a> |
 
 # PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO (VERSÃO 2 - Github atualizada via GIT)
+Utilizando: HTML5, Javascript, CSS3, NodeJs
 
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
