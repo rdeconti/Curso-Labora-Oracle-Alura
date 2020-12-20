@@ -72,9 +72,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 | Alura News| Website - Notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2004%20-%20Not%C3%ADcias">Link</a> |
 | Conferência Alura| Website - projeto de final de curso | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2005%20-%20Alura%20Conference">Link</a> |
 
-# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO
-
-
+# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO (VERSÃO 1 - Github atualizada via Upload)
 
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
@@ -82,3 +80,12 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 | Minute News| Website - Página fictícia de  notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2002%20-%20Minute%20News">Link</a> |
 | Babies| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2003%20-%20Babies">Link</a> |
 | Potions| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2004%20-%20Potions">Link</a> |
+
+# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO (VERSÃO 2 - Github atualizada via GIT)
+
+| Projeto | Descrição | Situação | Link |
+| --- | --- | --- | --- |
+| MusicDot| Website - MusicDot | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Project-MusicDot">Link</a> |
+| Minute News| Website - Página fictícia de  notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Minute-News">Link</a> |
+| Babies| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Bennu-Babies">Link</a> |
+| Potions| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Merlins-Potions">Link</a> |
