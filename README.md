@@ -86,7 +86,7 @@ Utilizando: HTML5, Javascript, CSS3, NodeJs
 
 | Projeto | Descrição | Situação | Link |
 | --- | --- | --- | --- |
-| MusicDot| Website - MusicDot | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Project-MusicDot">Link</a> |
+| MusicDot| Website - MusicDot | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-MusicDot">Link</a> |
 | Minute News| Website - Página fictícia de  notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Minute-News">Link</a> |
 | Babies| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Bennu-Babies">Link</a> |
 | Potions| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Merlins-Potions">Link</a> |
