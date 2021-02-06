@@ -1,8 +1,3 @@
-# Olá! Meu nome é Rosemeire Deconti! Meus perfis:
-
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos)](https://github.com/rdeconti)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rdeconti/)](https://www.linkedin.com/in/rdeconti/)
-
 # Curso-Labora-Oracle-Alura
 ### Oracle e Labora se unem para qualificar profissionais com mais de 50 anos
 O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologia para profissionais seniores e aumentar a empregabilidade dessa população. São 4 formações com vários cursos durante 6 meses ministrados pela Alura
@@ -62,31 +57,3 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 
 # CERTIFICADOS DE CONCLUSÃO
 ### <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Certificados%20de%20conclus%C3%A3o">Certificados de conclusão de cada um dos cursos</a>
-
-# PROJETOS PROPOSTOS PELO CURSO
-
-| Projeto | Descrição | Situação | Link |
-| --- | --- | --- | --- |
-| Barbearia Alura| Website - Babearia Alura | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2001%20-%20Barbearia%20Alura">Link</a> |
-| Aparecida Nutricionista| Website - Pacientes de clinica | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2002%20-%20Aparecida%20Nutricionista">Link</a> |
-| Alura News| Website - Notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2004%20-%20Not%C3%ADcias">Link</a> |
-| Conferência Alura| Website - projeto de final de curso | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%2005%20-%20Alura%20Conference">Link</a> |
-
-# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO (VERSÃO 1 - Github atualizada via Upload)
-
-| Projeto | Descrição | Situação | Link |
-| --- | --- | --- | --- |
-| MusicDot| Website - MusicDot | Concluido :heavy_check_mark: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2001%20-%20Musicdot">Link</a> |
-| Minute News| Website - Página fictícia de  notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2002%20-%20Minute%20News">Link</a> |
-| Babies| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2003%20-%20Babies">Link</a> |
-| Potions| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Curso-Labora-Oracle-Alura/tree/main/Projeto%20Extra%2004%20-%20Potions">Link</a> |
-
-# PROJETOS QUE BUSQUEI NA INTERNET PARA COMPLEMENTAR O CURSO (VERSÃO 2 - Github atualizada via GIT)
-Utilizando: HTML5, Javascript, CSS3, NodeJs
-
-| Projeto | Descrição | Situação | Link |
-| --- | --- | --- | --- |
-| MusicDot| Website - MusicDot | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-MusicDot">Link</a> |
-| Minute News| Website - Página fictícia de  notícias | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Minute-News">Link</a> |
-| Babies| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Bennu-Babies">Link</a> |
-| Potions| Website - Página fictícia de produtos | Em andamento :warning: | <a href="https://github.com/rdeconti/Project-Merlins-Potions">Link</a> |
