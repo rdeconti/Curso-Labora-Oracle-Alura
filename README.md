@@ -32,7 +32,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 <p>Tempo estimado: 90 horas</p>
 
 # FORMAÇÃO 3 - Oracle ONE: Java
-### > Em andamento :warning:
+### > Concluido :heavy_check_mark:
 #### Cursos - Tempo estimado: 120 horas
 <p>Java JRE e JDK: Escreva o seu primeiro código com Eclipse</p>
 <p>Java OO: Introdução à Orientação a Objetos</p>
@@ -45,7 +45,7 @@ O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologi
 <p>Java moderno: Tire proveito dos novos recursos do Java 8</p>
 
 # FORMAÇÃO 4 - Oracle ONE: Empreendedorismo
-### > Em andamento :warning:
+### > Concluido :heavy_check_mark:
 #### Cursos - Tempo estimado: 50 horas
 <p>Lean Startup: Primeiros passos da sua startup enxuta</p>
 <p>Empreendedorismo: da ideia ao plano de negócios</p>
