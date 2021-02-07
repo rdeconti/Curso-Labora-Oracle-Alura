@@ -1,5 +1,0 @@
-- Criar id para voltar ao topo              OK
-- Incluir video                             OK
-- Incluir Google MAPS                       OK
-- mediaquery -> não está responsivo         OK
-- Incluir Footer                            OK
