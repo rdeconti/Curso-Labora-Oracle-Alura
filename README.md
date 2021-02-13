@@ -2,6 +2,7 @@
 
 <img align="right" alt="GIF" height="160px" src="https://github.com/rdeconti/rdeconti-resources/blob/main/alura%20-%20Logotipo.png" />
 <img align="right" alt="GIF" height="160px" src="https://github.com/rdeconti/rdeconti-resources/blob/main/Oracle%20-%20Logotipo.png" />
+<img align="right" alt="GIF" height="160px" src="https://github.com/rdeconti/rdeconti-resources/blob/main/Labora%20-%20Logotipo.png" />
 
 # Curso Labora-Oracle-Alura
 ### Oracle e Labora se unem para qualificar profissionais com mais de 50 anos
