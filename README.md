@@ -1,4 +1,9 @@
-# Curso-Labora-Oracle-Alura
+:spiral_calendar: Atualizado em 13 Fevereiro de 2021 :heart:
+
+<img align="right" alt="GIF" height="160px" src="https://github.com/rdeconti/rdeconti-resources/blob/main/alura%20-%20Logotipo.png" />
+<img align="right" alt="GIF" height="160px" src="https://github.com/rdeconti/rdeconti-resources/blob/main/Oracle%20-%20Logotipo.png" />
+
+# Curso Labora-Oracle-Alura
 ### Oracle e Labora se unem para qualificar profissionais com mais de 50 anos
 O projeto Seniores Digitais busca incentivar uma segunda formação em tecnologia para profissionais seniores e aumentar a empregabilidade dessa população. São 4 formações com vários cursos durante 6 meses ministrados pela Alura
 
